@@ -74,7 +74,7 @@ data$slope <- as.factor(data$slope)
  
 data$ca <- as.integer(data$ca) # since this column had "?"s in it
 # R thinks that the levels for the factor are strings, but
-# we know they are integers, so first convert the strings to integiers...
+# we know they are integers, so first convert the strings to integers...
 data$ca <- as.factor(data$ca)  # ...then convert the integers to factor levels
  
 data$thal <- as.integer(data$thal) # "thal" also had "?"s in it.
