@@ -6,7 +6,7 @@ library(cowplot)
 ## Specifically, this is the heart disease data set.
 ## http://archive.ics.uci.edu/ml/datasets/Heart+Disease
  
-url <- "http://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.cleveland.data"
+url <- "https://raw.githubusercontent.com/StatQuest/logistic_regression_demo/master/processed.cleveland.data"
  
 data <- read.csv(url, header=FALSE)
  
